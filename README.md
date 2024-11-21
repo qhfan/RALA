@@ -28,3 +28,17 @@ The Softmax attention mechanism in Transformer models is notoriously computation
 |RAVLT-S|44 |262 |49.8 |71.3 |54.5 |44.6 |68.5 |48.2|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_s_1x_12_epoch.pth)|
 |RAVLT-B|67 |372 |51.2 |72.7 |56.4 |45.7 |69.9 |49.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_b_1x_12_epoch.pth)|
 |RAVLT-L|114 |501 |52.3 |73.8 |57.3 |46.4 |71.1 |50.4|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_l_1x_12_epoch.pth)|
+
+### Mask R-CNN 3x
+|Backbone|Params(M)|FLOPs(G)|AP<sup>b</sup>|AP<sup>b</sup><sub>50</sub>|AP<sup>b</sup><sub>75</sub>|AP<sup>m</sup>|AP<sup>m</sup><sub>50</sub>|AP<sup>m</sup><sub>75</sub>|ckpt|
+|-|-|-|-|-|-|-|-|-|-|
+|RAVLT-S|44 |262 |51.4 |72.3 |56.5 |45.5 |69.7 |48.8|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_s_3x_36_epoch.pth)|
+|RAVLT-B|67 |372 |52.7 |73.5 |57.7 |46.4 |70.6 |50.2|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_b_3x_36_epoch.pth)|
+|RAVLT-L|114 |501 |53.6 |74.4 |58.9 |47.3 |71.6 |51.2|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_l_3x_36_epoch.pth)|
+
+### Cascade Mask R-CNN  3x
+|Backbone|Params(M)|FLOPs(G)|AP<sup>b</sup>|AP<sup>b</sup><sub>50</sub>|AP<sup>b</sup><sub>75</sub>|AP<sup>m</sup>|AP<sup>m</sup><sub>50</sub>|AP<sup>m</sup><sub>75</sub>|ckpt|
+|-|-|-|-|-|-|-|-|-|-|
+|RAVLT-S|82 |741 |54.2 |72.9 |58.7 |46.8 |70.5 |50.9|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_s_3x_36_epoch.pth)|
+|RAVLT-B|105 |851 |55.3 |73.8 |60.1 |47.7 |71.4 |52.1|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_b_3x_36_epoch.pth)|
+|RAVLT-L|152 |979 |55.6 |74.1 |60.5 |48.0 |71.8 |52.3|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_l_3x_36_epoch.pth)|
