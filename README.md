@@ -50,3 +50,11 @@ The Softmax attention mechanism in Transformer models is notoriously computation
 |RAVLT-T|18 |136 |47.9|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_t_1x.pth) |
 |RAVLT-S|28 |180 |49.5|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_s_1x.pth) |
 |RAVLT-B|51 |292 |51.9|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_b_1x.pth) |
+|RAVLT-L|98 |424 |52.6|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_l_1x.pth) | 
+
+### UperNet 2x
+|Backbone|Params(M)|FLOPs(G)|mIoU(%)|ckpt|
+|-|-|-|-|-|
+|RAVLT-S|55 |937 |50.7|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/uper_s_2x.pth)|
+|RAVLT-B|77 |1050 |52.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/uper_b_2x.pth)|
+|RAVLT-L|125 |1182 |53.2|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/uper_l_2x.pth)|
