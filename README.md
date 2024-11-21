@@ -12,7 +12,7 @@ The Softmax attention mechanism in Transformer models is notoriously computation
 |RAVLT-B|48|9.9|85.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B_log.txt)|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B.pth)
 |RAVLT-L|95|16.0|85.8|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L_log.txt)|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L.pth)
 
-## Object Detection and Semantic Segmentation
+## Object Detection and Instance Segmentation
 ### Retinanet 1x
 |Backbone|Params(M)|FLOPs(G)|AP<sup>b</sup>|AP<sup>b</sup><sub>50</sub>|AP<sup>b</sup><sub>75</sub>|AP<sup>b</sup><sub>S</sub>|AP<sup>b</sup><sub>M</sub>|AP<sup>b</sup><sub>L</sub>|ckpt|
 |-|-|-|-|-|-|-|-|-|-|
@@ -42,3 +42,11 @@ The Softmax attention mechanism in Transformer models is notoriously computation
 |RAVLT-S|82 |741 |54.2 |72.9 |58.7 |46.8 |70.5 |50.9|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_s_3x_36_epoch.pth)|
 |RAVLT-B|105 |851 |55.3 |73.8 |60.1 |47.7 |71.4 |52.1|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_b_3x_36_epoch.pth)|
 |RAVLT-L|152 |979 |55.6 |74.1 |60.5 |48.0 |71.8 |52.3|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/Casmaskrcnn_l_3x_36_epoch.pth)|
+
+## Semantic Segmentation
+### Semantic FPN 1x
+|Backbone|Params(M)|FLOPs(G)|mIoU(%)|ckpt|
+|-|-|-|-|-|
+|RAVLT-T|18 |136 |47.9|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_t_1x.pth) |
+|RAVLT-S|28 |180 |49.5|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_s_1x.pth) |
+|RAVLT-B|51 |292 |51.9|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/fpn_b_1x.pth) |
