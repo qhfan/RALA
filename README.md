@@ -20,3 +20,11 @@ The Softmax attention mechanism in Transformer models is notoriously computation
 |RAVLT-S|34 |244 |48.3 |69.8 |52.1 |32.7 |52.8 |63.6|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/retinanet_s_1x_12_epoch.pth)|
 |RAVLT-B|57 |353 |49.8 |71.2 |54.0 |34.0 |54.3 |64.9|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/retinanet_b_1x_12_epoch.pth)|
 |RAVLT-L|104 |482 |50.9 |72.2 |55.0 |34.7 |55.7 |65.4|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/retinanet_l_1x_12_epoch.pth)|
+
+### Mask R-CNN 1x
+|Backbone|Params(M)|FLOPs(G)|AP<sup>b</sup>|AP<sup>b</sup><sub>50</sub>|AP<sup>b</sup><sub>75</sub>|AP<sup>m</sup>|AP<sup>m</sup><sub>50</sub>|AP<sup>m</sup><sub>75</sub>|ckpt|
+|-|-|-|-|-|-|-|-|-|-|
+|RAVLT-T|33 |219 |47.3 |69.1 |51.9 |42.7 |66.2 |46.0|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_t_1x_12_epoch.pth)|
+|RAVLT-S|44 |262 |49.8 |71.3 |54.5 |44.6 |68.5 |48.2|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_s_1x_12_epoch.pth)|
+|RAVLT-B|67 |372 |51.2 |72.7 |56.4 |45.7 |69.9 |49.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_b_1x_12_epoch.pth)|
+|RAVLT-L|114 |501 |52.3 |73.8 |57.3 |46.4 |71.1 |50.4|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/maskrcnn_l_1x_12_epoch.pth)|
