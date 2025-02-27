@@ -1,4 +1,4 @@
-# RALA
+# [CVPR2025]Breaking the Low-Rank Dilemma of Linear Attention
 Our work is accepted by CVPR2025! The code will be released soon (The author is busy for ICCV. The code may be released within one month)
 
 Implementation of "[Breaking the Low-Rank Dilemma of Linear Attention](https://arxiv.org/abs/2411.07635)"
