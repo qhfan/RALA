@@ -1,13 +1,14 @@
 # RALA
+Our work is accepted by CVPR2025! The code will be released soon (The author is busy for ICCV. The code may be released within one month)
 Implementation of "[Breaking the Low-Rank Dilemma of Linear Attention](https://arxiv.org/abs/2411.07635)"
 
 ## Image Classification
 |Model|Params(M)|FLOPs(G)|ckpt|
-|-|-|-|-|-|-|
-|RAVLT-T|15|2.4|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_T.pth)
-|RAVLT-S|26|4.6|84.4|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_S.pth)
-|RAVLT-B|48|9.9|85.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B.pth)
-|RAVLT-L|95|16.0|85.8|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L.pth)
+|-|-|-|-|
+|RAVLT-T|15|2.4|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_T.pth)|
+|RAVLT-S|26|4.6|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_S.pth)|
+|RAVLT-B|48|9.9|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B.pth)|
+|RAVLT-L|95|16.0|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L.pth)|
 
 ## Object Detection and Instance Segmentation
 ### Retinanet 1x
