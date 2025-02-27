@@ -2,12 +2,12 @@
 Implementation of "[Breaking the Low-Rank Dilemma of Linear Attention](https://arxiv.org/abs/2411.07635)"
 
 ## Image Classification
-|Model|Params(M)|FLOPs(G)|Acc(%)|log|ckpt|
+|Model|Params(M)|FLOPs(G)|ckpt|
 |-|-|-|-|-|-|
-|RAVLT-T|15|2.4|82.8|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_T_log.txt)|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_T.pth)
-|RAVLT-S|26|4.6|84.4|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_S_log.txt)|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_S.pth)
-|RAVLT-B|48|9.9|85.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B_log.txt)|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B.pth)
-|RAVLT-L|95|16.0|85.8|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L_log.txt)|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L.pth)
+|RAVLT-T|15|2.4|[RAVLT-T](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_T.pth)
+|RAVLT-S|26|4.6|84.4|[RAVLT-S](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_S.pth)
+|RAVLT-B|48|9.9|85.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_B.pth)
+|RAVLT-L|95|16.0|85.8|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/RAVLT_L.pth)
 
 ## Object Detection and Instance Segmentation
 ### Retinanet 1x
