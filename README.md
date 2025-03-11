@@ -1,7 +1,19 @@
 # [CVPR2025]Breaking the Low-Rank Dilemma of Linear Attention
-Our work is accepted by CVPR2025! The code will be released soon (The author is busy for ICCV. The code may be released within one month)
 
 Implementation of "[Breaking the Low-Rank Dilemma of Linear Attention](https://arxiv.org/abs/2411.07635)"
+
+The Softmax attention mechanism in Transformer models is notoriously computationally expensive, particularly due to its quadratic complexity, posing significant challenges in vision applications. In contrast, linear attention provides a far more efficient solution by reducing the complexity to linear levels. However, compared to Softmax attention, linear attention often experiences significant performance degradation. Our experiments indicate that this performance drop is due to the low-rank nature of linear attention's feature map, which hinders its ability to adequately model complex spatial information. In this paper, to break the low-rank dilemma of linear attention, we conduct rank analysis from two perspectives: the KV buffer and the output features. Consequently, we introduce Rank-Augmented Linear Attention (RALA), which rivals the performance of Softmax attention while maintaining linear complexity and high efficiency. Based on RALA, we construct the Rank-Augmented Vision Linear Transformer (RAVLT). Extensive experiments demonstrate that RAVLT achieves excellent performance across various vision tasks. Specifically, without using any additional labels, data, or supervision during training, RAVLT achieves an 84.4% Top-1 accuracy on ImageNet-1k with only 26M parameters and 4.6G FLOPs. This result significantly surpasses previous linear attention mechanisms, fully illustrating the potential of RALA. 
+
+
+## Citation
+```bibtex
+@inproceedings{fan2024breaking,
+      title={Breaking the Low-Rank Dilemma of Linear Attention},
+      author={Qihang Fan and Huaibo Huang and Ran He },
+      year={2025},
+      booktitle={CVPR},
+}
+```
 
 ## Image Classification
 |Model|Params(M)|FLOPs(G)|ckpt|
@@ -58,15 +70,5 @@ Implementation of "[Breaking the Low-Rank Dilemma of Linear Attention](https://a
 |RAVLT-B|77 |1050 |52.5|[RAVLT-B](https://huggingface.co/aldjalkdf/RAVLT/blob/main/uper_b_2x.pth)|
 |RAVLT-L|125 |1182 |53.2|[RAVLT-L](https://huggingface.co/aldjalkdf/RAVLT/blob/main/uper_l_2x.pth)|
 
-### Citation
 
-```bibtex
-@inproceedings{fan2024breakinglowrank,
-      title={Breaking the Low-Rank Dilemma of Linear Attention},
-      author={Qihang Fan and Huaibo Huang and Ran He },
-      year={2025},
-      booktitle={CVPR},
-}
-```
 
-The Softmax attention mechanism in Transformer models is notoriously computationally expensive, particularly due to its quadratic complexity, posing significant challenges in vision applications. In contrast, linear attention provides a far more efficient solution by reducing the complexity to linear levels. However, compared to Softmax attention, linear attention often experiences significant performance degradation. Our experiments indicate that this performance drop is due to the low-rank nature of linear attention's feature map, which hinders its ability to adequately model complex spatial information. In this paper, to break the low-rank dilemma of linear attention, we conduct rank analysis from two perspectives: the KV buffer and the output features. Consequently, we introduce Rank-Augmented Linear Attention (RALA), which rivals the performance of Softmax attention while maintaining linear complexity and high efficiency. Based on RALA, we construct the Rank-Augmented Vision Linear Transformer (RAVLT). Extensive experiments demonstrate that RAVLT achieves excellent performance across various vision tasks. Specifically, without using any additional labels, data, or supervision during training, RAVLT achieves an 84.4% Top-1 accuracy on ImageNet-1k with only 26M parameters and 4.6G FLOPs. This result significantly surpasses previous linear attention mechanisms, fully illustrating the potential of RALA. 
